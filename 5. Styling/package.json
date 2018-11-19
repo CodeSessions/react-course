@@ -1,7 +1,7 @@
 {
   "name": "styling",
   "version": "1.0.0",
-  "description": "React Course: Chapter 3.",
+  "description": "React Course: Chapter 5.",
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server --config webpack/dev.config.js --open",
