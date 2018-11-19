@@ -1,5 +1,5 @@
 {
-  "name": "what-is-webpack",
+  "name": "setup-development-environment",
   "version": "1.0.0",
   "description": "[Webpack](https://webpack.js.org/) is a static module bundler for modern JavaScript applications.",
   "main": "index.js",
