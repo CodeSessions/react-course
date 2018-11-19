@@ -16,7 +16,7 @@ On this chapter, we will write our first component to say Hello World!
    * Install babel: `npm i -D @babel/core @babel/preset-react babel-loader`.
   * At `./webpack/common.config.js`:
     * Add babel suport for react: 
-      ```diff
+      ```javascript
       module: {
         rules: [
           // JSX? - Files - BABEL
