@@ -27,10 +27,11 @@ On this chapter we will build a basic dev ecosystem to build any application.
         filename: '[name]-[hash]'
         chunkFilename: '[name]-[chunkhash]'
         ```
-    * Go to `webpack/common.config.js` and rewrite the code using the variables created on previous step. 
+    * Go to `webpack/common.config.js` and rewrite the code using the variables created on previous step. Remove the `publicPath`, we don't need it.
     * Create a `webpack/dev.config.js` file and use **webpack-merge** to merge the `common.config.js` with an empty object. 
       * Update the empty object and add the `mode` and `devtool` properties. Remove those two from `common.config.js`.
       * Move the `index.html` inside `src/` folder and remove the reference to `bundle.js`.
+    * At `webpack/common.config.js`:
       * Configure the **HtmlWebpackPlugin**. Setup a `template` and `inject` to body.
     * Update the `build` script on `package.json`: (On this time, we should have the same result as previous chapter but improved. Try it executing the script with `npm run build`)
       ```json
