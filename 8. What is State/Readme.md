@@ -13,6 +13,8 @@ Let's see this in action!
   * Set your personal info (name and age) as an state of our `App` component. 
   * Pass it to `Person` component.
   * Check everything is working fine!
+  * At `App.jsx`: 
+    * Add a button to increase the `age`.
 
 ### ⏭ Next chapter: [9. Using Context API](../9.%20Using%20Context%20API/Readme.md)
 
