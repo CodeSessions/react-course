@@ -37,9 +37,8 @@ Let's play with Context!
   * At `Provider` component:
     * Define a `_increaseAge` method and write the logic.
     * Add this method on the value of provider.
-  * At `Person` component:
-    * Create a button to increase the age.
-    * Bind in `onClick` method the context method created before.
+  * At `App` component:
+    * Bind the button to the new context method.
   * See all is working fine!!
   
 ### ⏮ Previous chapter: [8. What is State](../8.%20What%20is%20State/Readme.md)
