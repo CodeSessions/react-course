@@ -12,7 +12,7 @@ One of the most important feature of react is to re-use code. We can do it creat
   * Create a `Person` component. 
     * Should receive a `name` and `age` by props.
     * Fill your info as a default prop.
-    * Add this component on `App` component.
+  * Add those components on `App` component.
   * Check everything is working fine!
 
 ### ⏭ Next chapter: [8. What is State](../8.%20What%20is%20State/Readme.md)
