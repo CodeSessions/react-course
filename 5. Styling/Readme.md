@@ -35,8 +35,8 @@ On this chapter, we want to learn how to use your theme on a React application. 
   * Run the application and see how it's working.
   * Installing bootstrap: `npm i -S bootstrap`.
   * Create a `./src/theme` folder: 
-    * Create a `bootstrap/variables.scss` file and copy the variables file from  `bootstrap` library.
-    * Create a `bootstrap/bootstrap.scss` file to import `bootstrap` library.
+    * Create a `bootstrap/_variables.scss` file and copy the variables file from  `bootstrap` library.
+    * Create a `bootstrap/_bootstrap.scss` file to import `bootstrap` library.
       * Import `functions` file from bootstrap library. 
       * Import `variables` file created by us.
       * Import `bootstrap` file from bootstrap library.
