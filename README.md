@@ -12,3 +12,4 @@ A React Course step by step, from zero to the world!
   7. [Multiple Components](./7.%20Multiple%20Components/Readme.md)
   8. [What is State](./8.%20What%20is%20State/Readme.md)
   9. [Using Context API](./9.%20Using%20Context%20API/Readme.md)
+  100. [Final Course Solution](./100.%20Final%20Course%20Solution/Readme.md)
